@@ -1,0 +1,16 @@
+{
+  "tests": [
+    {
+      "name": "Кофе Arabica (Yahoo Finance)",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/KC=F",
+      "expected_status": 200,
+      "description": "Получить биржевую цену на кофе Arabica"
+    },
+    {
+      "name": "Проверка Google",
+      "url": "https://google.com",
+      "expected_status": 200,
+      "description": "Простой тест доступности"
+    }
+  ]
+}
